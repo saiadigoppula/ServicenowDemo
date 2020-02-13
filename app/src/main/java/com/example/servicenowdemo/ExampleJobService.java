@@ -27,7 +27,7 @@ public class ExampleJobService extends JobService {
     private static final String TAG = "ExampleJobService";
     private RequestQueue mQueue;
     private boolean jobCancelled = false;
-
+    //swdwd
     @Override
     public boolean onStartJob(JobParameters params) {
         Log.d(TAG, "Job started");
